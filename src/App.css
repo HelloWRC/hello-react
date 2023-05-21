@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+  
+}
+
+.iframe-video {
+  width: 800px;
+  height: 400px;
+}
+
+.Content {
+  margin: 10px 15%;
+  padding: 20px 16px;
 }
 
 .App-logo {
