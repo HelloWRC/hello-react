@@ -13,6 +13,7 @@ jobs:
           persist-credentials: false
       - name: Install and Build
         run: |
+          export CI=false
           npm install
           npm run build
       - name: Archive artifact
